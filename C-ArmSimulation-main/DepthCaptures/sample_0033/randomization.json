@@ -1,0 +1,8 @@
+{
+    "profile": "LegacySafeRandom",
+    "poseValid": true,
+    "robotAttempts": 1,
+    "robotAttemptLimit": 30,
+    "requestedProps": 7,
+    "placedProps": 1
+}

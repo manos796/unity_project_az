@@ -1,0 +1,8 @@
+{
+    "profile": "GantryOrbit",
+    "poseValid": true,
+    "robotAttempts": 1,
+    "robotAttemptLimit": 6,
+    "requestedProps": 8,
+    "placedProps": 1
+}

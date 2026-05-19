@@ -1,0 +1,8 @@
+{
+    "profile": "CranialCaudal",
+    "poseValid": true,
+    "robotAttempts": 1,
+    "robotAttemptLimit": 6,
+    "requestedProps": 12,
+    "placedProps": 1
+}

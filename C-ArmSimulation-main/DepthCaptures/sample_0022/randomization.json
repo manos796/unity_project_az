@@ -1,0 +1,8 @@
+{
+    "profile": "CArcFocus",
+    "poseValid": true,
+    "robotAttempts": 1,
+    "robotAttemptLimit": 6,
+    "requestedProps": 6,
+    "placedProps": 1
+}

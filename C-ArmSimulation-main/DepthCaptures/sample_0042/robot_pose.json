@@ -1,0 +1,105 @@
+{
+    "rootName": "FlexArm",
+    "rootPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "rootEulerRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "joints": [
+        {
+            "name": "Carriage",
+            "linkPath": "FlexArm/Room/Rail/Carriage",
+            "jointType": "PrismaticJoint",
+            "worldPosition": {
+                "x": -0.20113514363765717,
+                "y": 2.5999999046325685,
+                "z": 0.0
+            },
+            "worldEulerRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "driveTarget": 0.20275095105171204,
+            "jointPosition": 0.20113514363765717,
+            "jointVelocity": 0.016277294605970384
+        },
+        {
+            "name": "HorBeam",
+            "linkPath": "FlexArm/Room/Rail/Carriage/HorBeam",
+            "jointType": "RevoluteJoint",
+            "worldPosition": {
+                "x": -0.20113514363765717,
+                "y": 2.5999999046325685,
+                "z": 0.0
+            },
+            "worldEulerRotation": {
+                "x": 0.0000032762854971224444,
+                "y": 331.335693359375,
+                "z": -8.370734008167347e-7
+            },
+            "driveTarget": 28.730854034423829,
+            "jointPosition": 0.5002867579460144,
+            "jointVelocity": 0.011958998627960682
+        },
+        {
+            "name": "VerBeam",
+            "linkPath": "FlexArm/Room/Rail/Carriage/HorBeam/VerBeam",
+            "jointType": "RevoluteJoint",
+            "worldPosition": {
+                "x": 0.8517991304397583,
+                "y": 2.5999999046325685,
+                "z": 0.5756126046180725
+            },
+            "worldEulerRotation": {
+                "x": 0.000005340328698366648,
+                "y": 308.5677490234375,
+                "z": -0.000002571977574916673
+            },
+            "driveTarget": 23.014541625976564,
+            "jointPosition": 0.3973752558231354,
+            "jointVelocity": 0.04326470196247101
+        },
+        {
+            "name": "Sleeve",
+            "linkPath": "FlexArm/Room/Rail/Carriage/HorBeam/VerBeam/Sleeve",
+            "jointType": "RevoluteJoint",
+            "worldPosition": {
+                "x": 0.353047251701355,
+                "y": 1.0999993085861207,
+                "z": -0.0498848557472229
+            },
+            "worldEulerRotation": {
+                "x": 349.1512145996094,
+                "y": 308.5677490234375,
+                "z": -0.0000030425869681494079
+            },
+            "driveTarget": -10.95343017578125,
+            "jointPosition": -0.1893472671508789,
+            "jointVelocity": -0.018298394978046418
+        },
+        {
+            "name": "CArc",
+            "linkPath": "FlexArm/Room/Rail/Carriage/HorBeam/VerBeam/Sleeve/CArc",
+            "jointType": "RevoluteJoint",
+            "worldPosition": {
+                "x": 1.225862979888916,
+                "y": 1.0999994277954102,
+                "z": 1.0447349548339844
+            },
+            "worldEulerRotation": {
+                "x": 349.15118408203127,
+                "y": 308.5677490234375,
+                "z": 21.745758056640626
+            },
+            "driveTarget": -21.636978149414064,
+            "jointPosition": -0.37953516840934756,
+            "jointVelocity": 0.019015764817595483
+        }
+    ]
+}
